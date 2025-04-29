@@ -1,0 +1,21 @@
+title: "Nir Blog"
+description: "Un espace pour partager les connaissances"
+baseurl: ""
+url: ""
+theme: minima
+collections:
+  posts:
+    output: true
+    permalink: /:year/:month/:title/
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: true
+giscus:
+  repo: votre-nom-utilisateur/votre-repo # Ex: nirgithub/nir-blog
+  repo-id: ABC123XYZ # Récupérez-le via l'API GitHub
+  category: Discussions # Nom de la catégorie des discussions
+  category-id: DEF456UVW # ID de la catégorie

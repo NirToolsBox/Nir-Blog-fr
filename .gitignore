@@ -1,0 +1,17 @@
+# Fichiers Auto
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Fichiers tmp
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Ruby / Bundler
+.bundle/
+vendor/
+Gemfile.lock

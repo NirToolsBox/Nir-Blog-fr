@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<article class="post-article">
+    <header class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
+        <div class="post-meta">
+            <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d/%m/%Y" }}</time>
+            <span class="reading-time">{% include reading-time.html %}</span>
+        </div>
+    </header>
+    
+    <div class="post-content">
+        {{ content }}
+    </div>
+
+    <!-- Section commentaires -->
+    <div class="comments">
+        <h2>Commentaires</h2>
+        <script src="https://giscus.app/client.js"
+            data-repo="{{ site.giscus.repo }}"
+            data-repo-id="{{ site.giscus.repo-id }}"
+            data-category="{{ site.giscus.category }}"
+            data-category-id="{{ site.giscus.category-id }}"
+            data-mapping="pathname"
+            data-strict="0"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="bottom"
+            data-theme="preferred_color_scheme"
+            data-lang="fr"
+            crossorigin="anonymous"
+            async>
+        </script>
+    </div>
+
+    <a href="{{ '/blog' | relative_url }}" class="back-link">← Retour</a>
+</article>
