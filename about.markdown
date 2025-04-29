@@ -40,13 +40,13 @@ permalink: /about/
         <div class="contact-content">
             <a href="mailto:contact@nir.com" class="email-link">
                 <i class="fas fa-envelope"></i>
-                contact@nir.com
+                nir.servicesdev@gmail.com
             </a>
             <div class="social-links">
-                <a href="https://github.com/nir" aria-label="GitHub" target="_blank">
+                <a href="https://github.com/NirToolsBox" aria-label="GitHub" target="_blank">
                     <i class="fab fa-github"></i>
                 </a>
-                <a href="https://linkedin.com/company/nir" aria-label="LinkedIn" target="_blank">
+                <a href="https://linkedin.com/company/ni-r" aria-label="LinkedIn" target="_blank">
                     <i class="fab fa-linkedin"></i>
                 </a>
             </div>
