@@ -16,7 +16,7 @@ permalink: /about/
             </div>
             <h2>Pourquoi ?</h2>
             <div class="about-content">
-                <p>Nir est une plateforme de partage de connaissances techniques, des plus simples aux plus complexes.</p>
+                <p>Nir Blog est une plateforme de partage de connaissances techniques, des plus simples aux plus complexes.</p>
                 <p>Nous croyons en la transmission du savoir comme moteur de l'innovation collective.</p>
             </div>
         </article>

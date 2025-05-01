@@ -25,7 +25,7 @@ title: Accueil
             <div class="intro-card">
                 <div class="card-header">
                     <span class="card-icon">🚀</span>
-                    <h2 class="card-title">Mon Parcours</h2>
+                    <h2 class="card-title">Parcours</h2>
                 </div>
                 <div class="card-content">
                     <p class="card-text">
@@ -40,21 +40,21 @@ title: Accueil
             <div class="intro-card">
                 <div class="card-header">
                     <span class="card-icon">💡</span>
-                    <h2 class="card-title">Notre Mission</h2>
+                    <h2 class="card-title">Mission</h2>
                 </div>
                 <div class="card-content">
                     <div class="mission-grid">
                         <div class="mission-item">
                             <h3 class="mission-title">Partage</h3>
-                            <p>Rendre accessible les connaissances techniques de <strong>Nir</strong>.</p>
+                            <p>Rendre accessible les connaissances techniques connu de <strong>Nir</strong>.</p>
                         </div>
                         <div class="mission-item">
                             <h3 class="mission-title">Innovation</h3>
-                            <p>Explorer les dernières technologies par <strong>Nir</strong>.</p>
+                            <p>Explorer les dernières outils open source de <strong>Nir</strong>.</p>
                         </div>
                         <div class="mission-item">
                             <h3 class="mission-title">Communauté</h3>
-                            <p>Construire un réseau de passionnés de <strong>Nir</strong>.</p>
+                            <p>Construire un réseau de passionnés autour de <strong>Nir</strong>.</p>
                         </div>
                         <div class="mission-item">
                             <h3 class="mission-title">Pédagogie</h3>

@@ -39,6 +39,16 @@ body {
     color: white;
 }
 
+.site-title a {
+    color: white;
+    text-decoration: none;
+  }
+
+.site-title a:hover {
+    text-decoration: none;
+    opacity: 0.8;
+  }
+
 .main-nav {
     display: flex;
     flex-direction: column;
