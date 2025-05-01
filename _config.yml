@@ -1,7 +1,7 @@
 title: "Nir Blog"
 description: "Un espace pour partager les connaissances"
-baseurl: ""
-url: ""
+baseurl: "/Nir-Blog"
+url: "https://nirtoolsbox.github.io"
 theme: minima
 collections:
   posts:
@@ -14,8 +14,3 @@ defaults:
     values:
       layout: post
       comments: true
-giscus:
-  repo: votre-nom-utilisateur/votre-repo # Ex: nirgithub/nir-blog
-  repo-id: ABC123XYZ # Récupérez-le via l'API GitHub
-  category: Discussions # Nom de la catégorie des discussions
-  category-id: DEF456UVW # ID de la catégorie
