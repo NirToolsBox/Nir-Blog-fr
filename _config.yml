@@ -3,6 +3,7 @@ description: "Un espace pour partager les connaissances"
 baseurl: "/Nir-Blog"
 url: "https://nirtoolsbox.github.io"
 theme: minima
+permalink: /:year/:month/:title/
 collections:
   posts:
     output: true
