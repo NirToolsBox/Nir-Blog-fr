@@ -15,24 +15,25 @@ layout: default
         {{ content }}
     </div>
 
+    <a href="{{ '/blog' | relative_url }}" class="back-link">← Retour</a>
+
     <div class="comments">
         <h2>Commentaires</h2>
         <script src="https://giscus.app/client.js"
-            data-repo="{{ site.giscus.repo }}"
-            data-repo-id="{{ site.giscus.repo-id }}"
-            data-category="{{ site.giscus.category }}"
-            data-category-id="{{ site.giscus.category-id }}"
-            data-mapping="pathname"
-            data-strict="0"
-            data-reactions-enabled="1"
-            data-emit-metadata="0"
-            data-input-position="bottom"
-            data-theme="preferred_color_scheme"
-            data-lang="fr"
-            crossorigin="anonymous"
-            async>
-        </script>
+        data-repo="NirToolsBox/Nir-Blog"
+        data-repo-id="R_kgDOOhkx3g"
+        data-category="General"
+        data-category-id="DIC_kwDOOhkx3s4Cpq3F"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="fr"
+        crossorigin="anonymous"
+        async>
+    </script>
     </div>
 
-    <a href="{{ '/blog' | relative_url }}" class="back-link">← Retour</a>
 </article>
