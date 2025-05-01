@@ -27,7 +27,7 @@ permalink: /blog/
     <article class="post-card" data-category="{{ post.category }}" data-date="{{ post.date | date_to_xmlschema }}">
         <div class="post-content">
             <span class="post-category">{{ post.category }}</span>
-            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
             <div class="post-meta">
                 <time>{{ post.date | date: "%d/%m/%Y" }}</time>
                 <span>•</span>
