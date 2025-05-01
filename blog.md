@@ -31,7 +31,7 @@ permalink: /blog/
             <div class="post-meta">
                 <time>{{ post.date | date: "%d/%m/%Y" }}</time>
                 <span>•</span>
-                <span>{% include reading-time.html %}</span>
+                <span>{% include reading-time.html content=post.content %}</span>
             </div>
             <p class="post-excerpt">{{ post.excerpt }}</p>
         </div>

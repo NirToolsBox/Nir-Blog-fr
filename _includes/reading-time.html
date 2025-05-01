@@ -1,7 +1,14 @@
-{% assign words = content | number_of_words %}
-{% if words < 360 %}
-    {% assign minutes = 1 %}
-{% else %}
-    {% assign minutes = words | divided_by:180 %}
-{% endif %}
-{{ minutes }} min de lecture
+{%- comment -%}
+  Include: reading-time.html
+  Calcule le temps de lecture basé sur le contenu passé en paramètre
+  Usage:
+    {% include reading-time.html content=page.content %}
+    ou
+    {% include reading-time.html content=post.content %}
+{%- endcomment -%}
+
+{%- assign text = include.content | strip_html | replace: "\n", " " -%}
+{%- assign word_count = text | number_of_words -%}
+{%- assign wpm = 150 -%} {%- assign minutes = word_count | divided_by: wpm -%}
+
+{{ minutes }} min

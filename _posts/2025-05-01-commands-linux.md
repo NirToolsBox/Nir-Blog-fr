@@ -10,6 +10,8 @@ excerpt: "Découvrez comment utiliser efficacement les commandes Linux pour gér
 
 Bienvenue dans ce guide approfondi sur les commandes Linux. Si vous êtes déjà familier avec Linux, vous savez probablement que le terminal est l'un des outils les plus puissants à votre disposition. Ce guide vous aidera à comprendre et à utiliser efficacement les commandes Linux pour gérer votre système, installer des logiciels, et bien plus encore.
 
+<br>
+
 ## Pourquoi Utiliser le Terminal ?
 
 Le terminal permet d'exécuter des tâches rapidement et efficacement. Contrairement aux interfaces graphiques, il offre un contrôle précis et permet d'automatiser des tâches répétitives grâce à des scripts. Voici quelques raisons pour lesquelles vous devriez maîtriser les commandes Linux :
@@ -18,6 +20,8 @@ Le terminal permet d'exécuter des tâches rapidement et efficacement. Contraire
 2. **Automatisation** : Vous pouvez créer des scripts pour automatiser des tâches répétitives.
 3. **Puissance** : Le terminal offre un contrôle total sur votre système.
 4. **Flexibilité** : Vous pouvez combiner des commandes pour créer des workflows personnalisés.
+
+<br>
 
 ## Commandes de Base
 
