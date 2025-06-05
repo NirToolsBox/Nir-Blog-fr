@@ -10,22 +10,18 @@ excerpt: "Découvrez les différences clés entre TypeScript et JavaScript."
 
 JavaScript et TypeScript sont deux langages très utilisés dans le développement web. JavaScript est le langage de base, tandis que TypeScript est une extension de JavaScript qui ajoute des fonctionnalités supplémentaires. Dans cet article, nous allons explorer les différences importantes entre ces deux langages de manière simple et claire.
 
-<br>
 
 ## Qu'est-ce que JavaScript ?
 
 JavaScript est un langage de programmation utilisé principalement pour rendre les pages web interactives. Il permet d'ajouter des fonctionnalités dynamiques aux sites web, comme des animations, des formulaires interactifs, et bien plus encore. JavaScript est exécuté directement dans le navigateur, ce qui le rend très rapide et efficace pour les applications web.
 
-<br>
 
 ## Qu'est-ce que TypeScript ?
 
 TypeScript est un sur-ensemble de JavaScript développé par Microsoft. Il ajoute des types statiques à JavaScript, ce qui signifie que vous pouvez définir des types pour vos variables, fonctions, et objets. Cela permet de détecter des erreurs avant même d'exécuter le code, ce qui rend le développement plus sûr et plus fiable.
 
-<br>
 
 # Différences Clés entre TypeScript et JavaScript
-<br>
 
 ## 1. Typage Statique vs Typage Dynamique
 
@@ -51,7 +47,6 @@ message = 42; // Erreur : Type 'number' n'est pas attribuable à type 'string'
 let user: string = "John";
 user = { name: "John", age: 30 }; // Erreur : Type '{ name: string; age: number; }' n'est pas attribuable à type 'string'
 ```
-<br>
 
 ## 2. Détection des Erreurs
 
@@ -76,7 +71,6 @@ function calculateArea(width: number, height: number): number {
 
 console.log(calculateArea(5, 10));
 ```
-<br>
 
 ## 3. Orienté Objet
 
@@ -148,7 +142,6 @@ let employee = new Employee("Bob", "développeur");
 employee.greet(); // "Hello, Bob"
 employee.introduce(); // "Je m'appelle Bob et je suis développeur"
 ```
-<br>
 
 ## 4. Interfaces
 
@@ -185,7 +178,6 @@ greet(person); // Affiche "Hello, Alice"
 // Erreur de compilation - Propriété 'name' manquante
 greet({ firstName: "Bob" }); // Erreur: Argument of type '{ firstName: string; }' is not assignable to parameter of type 'Person'.
 ```
-<br>
 
 ## 5. Modules
 
@@ -231,7 +223,6 @@ let person = new Person("Alice");
 person.greet(); // Affiche "Hello, Alice"
 ```
 
-<br>
 
 # Conclusion
 

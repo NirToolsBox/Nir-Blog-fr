@@ -15,3 +15,7 @@ defaults:
     values:
       layout: post
       comments: true
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
